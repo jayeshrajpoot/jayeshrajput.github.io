@@ -1,1 +1,312 @@
-# jayeshrajput.github.io
+<!doctype html>
+
+<html>
+
+<head>
+
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio</title>
+    <link rel="icon" href="portfolio.ico.png" type="images/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <!--<link rel="scripting" href="script.js">-->
+    <script src="https://kit.fontawesome.com/15094c29cd.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo1.png" class="logo">
+
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Internships</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class=" fas fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+        </div>
+
+        <div class="header-text">
+            <div class="wrapper">
+                <div class="static-txt">Hi, I'm</div>
+                <ul class="dynamic-txts">
+                    <li><span>Jayesh Rajput</span></li>
+                    <li><span>a Software Developer</span></li>
+                    <li><span>a Cloud Practitioner</span></li>
+                    <li><span>a Data Science Enthusiast</span></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!----------about me-------------------------------------------------------------->
+    <div id="about">
+
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Jayesh_fresher.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Hello world! My name is Jayesh Rajput. I'm a Product Designer, Cloud and Data Science enthusiast
+                        yes
+                        it's a lot. I'm currently pursuing my B.Tech degree from MIT Academy of Engineering College
+                        Pune. I like to
+                        solve problems and find new ways to approach them. Technology really fascinates me about the
+                        impact we geeks create just by mearly using it effectively.
+                    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+
+                            <li><span>Programming Languages</span>
+                                <br>Core Java, Python, HTML, CSS, SQL
+                            </li>
+                            <li><span><br>Technologies</span>
+                                <br>Cloud Computing, ML, Data Science<br>
+                            </li>
+                            <li><span><br>Tools</span>
+                                <br>AWS, Jupyter NB, Colab, Power BI, GIT, Github, MYSQL, Figma
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+
+                            <li><span>January 2023</span><br>YBI Foundation Machine Learrning Intern</li>
+
+                            <li><span><br>July 2022 - September 2022</span><br>_VOIS Student Intern</li>
+
+                            <li><span><br>June 2022 - July 2022</span><br>Intellectual Property Rights Internship</li>
+
+                            <!--<li><span><br>2016 - 2017</span><br>Internship at ekart eCommerce.</li>-->
+
+                        </ul>
+                    </div>
+
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023 Current</span><br>MIT Academy of Engineering College Pune</li>
+
+                            <li><span><br>2018 - 2020</span><br>L.D. Sonwane College of Arts, Commerce and Science</li>
+
+                            <li><span><br>2008 - 2018</span><br>New Shri Vani Vidya Shala High School</li>
+
+                            <!--<li><span><br>2016 - 2017</span><br>Internship at ekart eCommerce.</li>-->
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--------------------services------------------------------------------------>
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Internships</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>_VOIS Student Intern</h2>
+                    <p>During my internship in _VOIS as a student Intern. I devloped a Machine Learning model using
+                        Natural Language Processing that will help the users to summarize their text in lightning
+                        speed. I used python Programming language, Spacy library and flask framework to integrate
+                        the
+                        model with
+                        website.</p>
+                    </p>
+                    <a href="https://github.com/jayeshrajpoot/Text_Summarizer_WebApp" target="_blank">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Future Ready Talent Internship</h2>
+                    <p>During my internship under Future Ready Talent program I developed a website called DigitalEdu to
+                        provide educational services online and deployed it on Azure cloud. During this internship I
+                        learned HTML, CSS and basic JavaScript and also leaned how to deploy a static website on azure
+                        cloud.</p>
+                    </p>
+                    <a href="https://github.com/jayeshrajpoot/FRT_DigitalEdu_Project" target="_blank">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>YBI Foundation ML Intern</h2>
+                    <p>During the internship of YBI foundation I worked on an Machine Learning project
+                        "Classification Model to Identify Multiple Disease". I used the Python Programming language
+                        and Pandas library for data pre processing. I also use scikit learn library to train and
+                        predict the model.</p>
+                    </p>
+                    <a href="https://github.com/jayeshrajpoot/YBI-Foundation-One-month-Internship-Project"
+                        target="_blank">Learn more</a>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!----------portfolio--------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+
+                <div class="work">
+                    <img src="work-1.png">
+
+                    <div class="layer">
+                        <h3>Text Summarization using NLP</h3>
+                        <p>During my internship in _VOIS as a student Intern. I devloped a Machine Learning model using
+                            Natural Language Processing that will help the users to summarize their text in lightning
+                            speed. I used python Programming language, Spacy library and flask framework to integrate
+                            the
+                            model with
+                            website.</p>
+                        <a href="https://github.com/jayeshrajpoot/Text_Summarizer_WebApp" target="_blank">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="work">
+                    <img src="work-2.png">
+
+                    <div class="layer">
+                        <h3>Wasty - A waste management app</h3>
+                        <p>Wasty is all about waste management. I developed the prototype of Wasty during my Design
+                            Thinking classes. The main idea behind the design was to make the UI/UX of the app more user
+                            friendly. I used Figma to design and build its prototype.</p>
+                        <a href="https://www.figma.com/@jayeshrajput" target="_blank">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <div class="work">
+                    <img src="work-3.png">
+
+                    <div class="layer">
+                        <h3>Classification Model to Identify Multiple Disease</h3>
+                        <p>During the internship of YBI foundation I worked on an Machine Learning project
+                            "Classification Model to Identify Multiple Disease". I used the Python Programming language
+                            and Pandas library for data pre processing. I also use scikit learn library to train and
+                            predict the model.</p>
+                        <a href="https://github.com/jayeshrajpoot/YBI-Foundation-One-month-Internship-Project"
+                            target="_blank">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <a href="https://github.com/jayeshrajpoot" target="_blank" class="btn">See More</a>
+
+        </div>
+
+    </div>
+
+    <!------------contact------------------------------------------------>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i> jayeshrajput.in@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i>+918104059695</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/jayeahsh/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://facebook.com/jayesh.rajput.3781/" target="_blank"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://twitter.com/jayeshrajputt" target="_blank"><i
+                                class="fa-brands fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/rajputjayesh/" target="_blank"><i
+                                class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+
+                    <a href="Jayesh_Rajput_Resume_3.1.pdf" download class="btn btn2">Download Resume</a>
+
+                </div>
+
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="'text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea id="textboxid" type="text" name="Message" rows="6"
+                            placeholder="Your Suggestions"></textarea>
+                        <button type="submit" class="btn4">Submit</button>
+
+
+                    </form>
+
+                    <span id="msg"></span>
+
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="copyright">
+
+            Made with <svg viewBox="0 0 1792 1792" preserveAspectRatio="xMidYMid meet"
+                xmlns="http://www.w3.org/2000/svg" style="height: 0.8rem;">
+                <path
+                    d="M896 1664q-26 0-44-18l-624-602q-10-8-27.5-26T145 952.5 77 855 23.5 734 0 596q0-220 127-344t351-124q62 0 126.5 21.5t120 58T820 276t76 68q36-36 76-68t95.5-68.5 120-58T1314 128q224 0 351 124t127 344q0 221-229 450l-623 600q-18 18-44 18z"
+                    fill="#e25555"></path>
+            </svg> from India <!--<p> Copyright Jayesh Rajput <i class="fa-regular fa-copyright"></i> -->
+
+
+        </div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
